@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kağan Kurt Portfolio</title>
+
+  <!--- favicon -->
+  <link rel="shortcut icon" href="İMG/börü 2.jpg" type="image/x-icon">
+
+  <!--- custom css link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--- #MAIN -->
+
+  <main>
+
+    <!--- #SIDEBAR -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="İMG/2.jpg" alt="Kağan KURT" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kağan KURT">Kağan Kurt</h1>
+
+          <p class="title">Full Stack Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kagannkurt@gmail.com" class="contact-link">kagannkurt@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+905457611507" class="contact-link">+90 (545) 761-1507</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1993-01-26">January 26, 1993</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Marmaris, MUĞLA, TÜRKİYE</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/kagannkurt" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/kagannkurt" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--- #main-content -->
+
+    <div class="main-content">
+
+      <!--- #NAVBAR -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Hakkımda</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Lisans eğitimimi tamamladıktan sonra
+            ve 7 yıl kamu bankası tecrübesi
+            akabinde kariyerime yazılım ve bilişim
+            alanında ilerlemek istediğime karar
+            verdim. 
+          </p>
+
+          <p>
+            Neos Yazılım Akademi
+            tarafından verilen Full Stack Developer
+            eğitimine kaydolarak ve staj yaparak
+            sürecimi başarıyla tamamladım. Bu
+            süreçte birçok proje geliştirme ve
+            projede yer alma fırsatı buldum.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Neler Yapıyorum</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="İMG/Frontend.jpg"
+                 alt="frontend icon" width="60">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-End Web Development</h4>
+
+                <p class="service-item-text">
+                  Web sitelerinin Ön yüz tasarımı, geliştirilmesi ve programlanması.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="İMG/Backend.jpg" alt="Backend Web development icon" width="60">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-End Web development</h4>
+
+                <p class="service-item-text">
+                  C# .NET MVC Core ile web sitelerinin arka yüz programlanması ve geliştirilmesi
+                </p>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--- testimonials -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Görüşler</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="İMG/avatar2.jpg" alt="Görüş 1" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Görüş 1</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni corporis vel quaerat, veniam, quisquam necessitatibus aut explicabo tenetur natus, ipsum atque optio quos eaque excepturi. Voluptatibus placeat, molestias, autem rem quasi in perspiciatis vel non reiciendis rerum dolores voluptas pariatur aperiam? Cupiditate molestiae debitis quos minus, odit atque numquam. Aperiam.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="İMG/avatar2.jpg" alt="Görüş 2" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Görüş 2</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat necessitatibus dolore natus explicabo velit, praesentium voluptatibus aliquid nihil reprehenderit modi porro neque molestiae nulla quod nobis soluta enim. Saepe numquam, consectetur molestias repellat quidem dolores alias temporibus. Labore natus reprehenderit, praesentium incidunt omnis molestiae nam quidem, veritatis eos rerum magnam!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="İMG/avatar2.jpg" alt="Görüş 3" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Görüş 3</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum ipsum optio rerum, aliquid, a suscipit, omnis sapiente numquam quam nobis quibusdam. Delectus similique amet exercitationem, facere quas, omnis optio ipsam labore libero velit necessitatibus dolores error sit, inventore repellendus enim commodi quaerat! Nesciunt eum rerum, laborum sequi dolorum autem minima?
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="İMG/avatar2.jpg" alt="Görüş 4" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Görüş 4</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugit nihil quidem ab sapiente quisquam! Quo, eligendi! Magnam facere tenetur mollitia ullam inventore voluptate aut voluptatem et magni, eum cupiditate molestiae omnis eos accusantium vel. Autem, dolorem? Officiis ullam assumenda, molestias illum, aliquid voluptatum nostrum quaerat provident nihil deleniti laudantium!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--- testimonials modal -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="İMG/avatar2.jpg" alt="Görüş 1" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Görüş 1</h4>
+
+              <time datetime="2024-04-25">25 Nisan 2024</time>
+
+              <div data-modal-text>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem necessitatibus ratione nisi quisquam? Culpa animi tenetur ad deleniti distinctio corrupti laborum minima tempora laboriosam temporibus perferendis fugit alias doloribus maxime, labore cum repudiandae iste architecto omnis, et necessitatibus commodi quam explicabo! Consequuntur minima quisquam incidunt eum totam tempore fuga maxime.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--- clients -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Müşteriler</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="İMG/avatar2.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="İMG/avatar2.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="İMG/avatar2.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="İMG/avatar2.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="İMG/avatar2.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="İMG/avatar2.jpg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--- #RESUME -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">İstanbul Üniversitesi</h4>
+
+              <span>2023 — Halen</span>
+
+              <p class="timeline-text">
+                Yönetim Bilişim Sistemleri
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Afyon Kocatepe Üniversitesi</h4>
+
+              <span>2010 — 2014</span>
+
+              <p class="timeline-text">
+                İktisat - 2.38
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Deneyim</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stajyer</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                N. Yazılım
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kobi Portföy Yöneticisi</h4>
+
+              <span>2016 — 2023</span>
+
+              <p class="timeline-text">
+                T. Vakıflar Bankası T.A.O
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Yetenekler</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C#</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--- #PORTFOLIO-->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Front-End Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Back-End Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Front-End Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Back-End Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Front-End Web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="İMG/avatar2.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Front-End Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Back-End Web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="İMG/avatar2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rent A Car</h3>
+
+                <p class="project-category">Back-End Web development</p>
+
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--- #CONTACT -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">İletişim</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25542.115385505964!2d28.240845943068535!3d36.848117615297355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bfbdbff1961523%3A0xdf8e730ed1eeb2be!2sMarmaris%2C%20Mu%C4%9Fla!5e0!3m2!1str!2str!4v1714154903813!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">İletişim Formu</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Ad Soyad" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email adres" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Mesajınız" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Mesaj Gönder</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+  <!--- custom js link -->
+  <script src="script.js"></script>
+
+  <!--- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
